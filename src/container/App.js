@@ -1,7 +1,7 @@
-import ClassComponent from './components/ClassComponent';
-import FunctionComponent from './components/FunctionComponent';
+import ClassComponent from '../components/ClassComponent';
+import FunctionComponent from '../components/FunctionComponent';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <h3>Convidado:</h3>
@@ -16,5 +16,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
